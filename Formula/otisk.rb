@@ -1,10 +1,10 @@
-# Written by otisk when 4bc419d6f35e3755bf999686b64a102f6d286cf5 was signed. Do not edit.
+# Written by otisk when bff2914d5c29abe5166090a590fc682b1bf5b34d was signed. Do not edit.
 class Otisk < Formula
   desc "Client for the otisk forge"
   homepage "https://otisk.dev"
-  version "2026.09.19.9"
-  url "https://pub-0e2e5578296e460fa8f9f693f4ad4411.r2.dev/releases/4bc419d6f35e3755bf999686b64a102f6d286cf5/darwin-arm64/otisk"
-  sha256 "fc480fddcd810c83c81ce8a538a43966256552cc78afc677bf8fa417c709931c"
+  version "2026.09.19.10"
+  url "https://pub-0e2e5578296e460fa8f9f693f4ad4411.r2.dev/releases/bff2914d5c29abe5166090a590fc682b1bf5b34d/darwin-arm64/otisk"
+  sha256 "a5dc814d402ecaa0fc89d285df02b97287aced9ee866bdb8097f57da41b06fbe"
   license :cannot_represent
 
   def install
@@ -12,6 +12,6 @@ class Otisk < Formula
   end
 
   test do
-    assert_match "4bc419d6f35e3755bf999686b64a102f6d286cf5", shell_output("#{bin}/otisk version")
+    assert_match "bff2914d5c29abe5166090a590fc682b1bf5b34d", shell_output("#{bin}/otisk version")
   end
 end
